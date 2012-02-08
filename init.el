@@ -8,3 +8,6 @@
 (column-number-mode t)
 (size-indication-mode t)
 
+;; enable y/n answers
+(fset 'yes-or-no-p 'y-or-n-p)
+
