@@ -11,3 +11,7 @@
 ;; enable y/n answers
 (fset 'yes-or-no-p 'y-or-n-p)
 
+; nice scrolling
+(setq scroll-margin 0
+      scroll-conservatively 100000
+      scroll-preserve-screen-position 1)
