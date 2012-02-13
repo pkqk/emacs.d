@@ -7,6 +7,9 @@
 (blink-cursor-mode -1)
 (setq inhibit-startup-screen t)
 
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier nil)
+
 ;; mode line settings
 (line-number-mode t)
 (column-number-mode t)
