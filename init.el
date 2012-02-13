@@ -1,4 +1,5 @@
 ; basic UI fixes
+(if (fboundp 'toggle-scroll-bar) (toggle-scroll-bar -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (blink-cursor-mode -1)
 (setq inhibit-startup-screen t)
