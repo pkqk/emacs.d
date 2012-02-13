@@ -1,3 +1,6 @@
+(add-to-list 'load-path "~/.emacs.d/external/solarized-theme")
+(require 'solarized-light-theme)
+
 ; basic UI fixes
 (if (fboundp 'toggle-scroll-bar) (toggle-scroll-bar -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
